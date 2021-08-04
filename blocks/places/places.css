@@ -1,0 +1,10 @@
+.places {
+  border: black solid 1px;
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(2, 540px);
+  grid-template-areas:
+  "places__image places__title"
+  "places__image place__paragraphs";
+}

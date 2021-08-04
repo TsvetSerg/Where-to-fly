@@ -1,0 +1,5 @@
+.places__title {
+  grid-area: places__title;
+  margin: 0;
+  padding: 0;
+}

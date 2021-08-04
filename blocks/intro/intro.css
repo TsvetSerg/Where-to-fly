@@ -1,4 +1,12 @@
 .intro {
   display: flex;
-
+  flex-direction: column;
+  justify-content: center;
+  border: black solid 1px;
+  margin-top: 83px;
+  margin-left: 70px;
+  max-width: 1065px;
+  height: 360px;
+  width: calc(100% - (45px*2));
+  overflow: hidden;
 }

@@ -1,0 +1,8 @@
+.places__paragraphs {
+  border: black solid 1px;
+  grid-area: place__paragraphs;
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  max-height: 200px;
+}
