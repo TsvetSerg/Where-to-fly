@@ -1,0 +1,11 @@
+.people__card {
+  width: 230px;
+
+  margin: 0 20px 40px 0;
+}
+
+@media screen and (max-width: 629px) {
+  .people__card {
+    width: 100%;
+  }
+}

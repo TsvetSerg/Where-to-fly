@@ -1,0 +1,8 @@
+.content__title {
+  color: #fecda7;
+  font-size: 18px;
+  line-height: 1.15;
+  font-weight: bold;
+  margin: 0 0 35px 0;
+  text-transform: uppercase;
+}

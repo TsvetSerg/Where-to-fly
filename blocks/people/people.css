@@ -1,0 +1,9 @@
+.people {
+  padding: 0 65px 100px;
+}
+
+@media screen and (max-width: 629px) {
+  .people {
+    padding: 0 16px 90px;
+  }
+}
