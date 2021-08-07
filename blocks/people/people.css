@@ -2,8 +2,22 @@
   padding: 0 65px 100px;
 }
 
+@media screen and (max-width: 993px) {
+  .people {
+    max-width: 800px;
+  }
+}
+
 @media screen and (max-width: 629px) {
   .people {
+    align-self: center;
     padding: 0 16px 90px;
+    padding-left: 60px;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .people {
+    padding: 0;
   }
 }

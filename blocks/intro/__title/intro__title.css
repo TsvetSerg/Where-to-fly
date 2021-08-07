@@ -4,3 +4,9 @@
   padding: 0;
   max-width: 550px;
 }
+
+@media screen and (max-width: 426px) {
+  .intro__title {
+    
+  }
+}

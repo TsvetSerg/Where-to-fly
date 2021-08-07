@@ -1,15 +1,19 @@
 .places__image {
   max-width: 640px;
+  /* height: 100%; */
   object-fit: cover;
-  position: relative;
 }
 
-.places__image:nth-child(2n) {
-  left: 190px;
+@media screen and (max-width: 993px) {
+  .places__image {
+    order: 2;
+    display: block;
+    width: 100%;
+  }
 }
 
-@media screen and (max-width: 1280px) {
-  .places__image:nth-child(2n) {
-    left: 170px;
+
+@media screen and (max-width: 426px) {
+  .places__image {
   }
 }

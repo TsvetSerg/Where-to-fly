@@ -1,3 +1,13 @@
 .header__list-item {
   margin-left: 30px;
+  font-size: 12px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 426px) {
+  .header__list-item {
+    margin-left: 0;
+    margin-bottom: 15px;
+  }
 }

@@ -1,3 +1,15 @@
 .content__ask {
-  margin: 100px 0 115px 0;
+  margin: 135px 0 115px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 500px;
+}
+
+@media screen and (max-width: 993px) {
+  .content__ask {
+    margin-top: 50px;
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
 }

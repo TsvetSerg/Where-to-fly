@@ -1,9 +1,19 @@
 .places {
   /* border: black solid 1px; */
   max-width: 100%;
+  /* min-width: 1280px; */
   min-height: 540px;
   max-height: 540px;
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
 
+@media screen and (max-width: 993px) {
+  .places {
+    flex-direction: column;
+    align-items: center;
+    max-height: 100%;
+  }
 }
